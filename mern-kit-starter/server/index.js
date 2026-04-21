@@ -72,3 +72,70 @@ app.use('/api/support/', supportRoutes)
 app.listen(PORT, () => {
     console.log('listening on port ', PORT, 'with frontend domain ', process.env.DOMAIN);
 });
+
+
+// ============================================================
+// index.js
+// 📦 ONE-STOP EXPORT - Import all middleware from here
+// ============================================================
+// Instead of importing from each file separately like:
+//   const { protect } = require('./middleware/auth.middleware')
+//   const { authorizeRoles } = require('./middleware/role.middleware')
+//
+// You can now do it all in one line:
+//   const { protect, authorizeRoles, validateFeedback } = require('./middleware')
+// ============================================================
+
+const { protect } = require("./authmiddleware");
+
+const {
+  authorizeRoles,
+  authorizeMinRole,
+  isSuperAdmin,
+  ROLES,
+} = require("./rolemiddleware");
+
+const {
+  checkPermission,
+  checkEditSpecific,
+  canView,
+  canEdit,
+  PERMISSIONS,
+} = require("./permissionmiddleware");
+
+const {
+  validateFeedback,
+  validateUserRegistration,
+  validateLogin,
+  validateBulkOperation,
+} = require("./validate.middleware");
+
+const { notFound, errorHandler } = require("./errormiddleware");
+
+module.exports = {
+  // 🔐 Auth
+  protect,
+
+  // 👥 Roles
+  authorizeRoles,
+  authorizeMinRole,
+  isSuperAdmin,
+  ROLES,
+
+  // 🔑 Permissions
+  checkPermission,
+  checkEditSpecific,
+  canView,
+  canEdit,
+  PERMISSIONS,
+
+  // ✅ Validation
+  validateFeedback,
+  validateUserRegistration,
+  validateLogin,
+  validateBulkOperation,
+
+  // 🚨 Errors
+  notFound,
+  errorHandler,
+};

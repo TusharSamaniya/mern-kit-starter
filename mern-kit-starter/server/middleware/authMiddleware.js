@@ -1,21 +1,19 @@
 const jwt = require("jsonwebtoken");
 
-// This is the main function that runs before any protected route
 const protect = async (req, res, next) => {
   try {
     let token;
 
-    // ✅ Step 1: Look for the token in the request headers
-    // The frontend sends: Authorization: Bearer <token>
+    // Look for the token in the Authorization header
+    // Frontend sends:  Authorization: Bearer eyJhbGci...
     if (
       req.headers.authorization &&
       req.headers.authorization.startsWith("Bearer")
     ) {
-      // Split "Bearer eyJhbGci..." → grab just the token part
       token = req.headers.authorization.split(" ")[1];
     }
 
-    // ❌ If no token found, reject the request
+    // No token = not logged in
     if (!token) {
       return res.status(401).json({
         success: false,
@@ -23,18 +21,15 @@ const protect = async (req, res, next) => {
       });
     }
 
-    // ✅ Step 2: Verify the token is real (not fake or expired)
-    // jwt.verify() decodes the token using our secret key
+    // ✅ Verify the token using JWT_SECRET from your .env file
     const decoded = jwt.verify(token, process.env.JWT_SECRET);
 
-    // ✅ Step 3: Attach user info to the request object
-    // Now any route after this can access req.user
+    // Attach the decoded user info to the request
+    // (role, id, permissions etc. will be available as req.user)
     req.user = decoded;
 
-    // ✅ Step 4: Move on to the next middleware or route handler
     next();
   } catch (error) {
-    // If token is expired or invalid, send error
     if (error.name === "TokenExpiredError") {
       return res.status(401).json({
         success: false,
