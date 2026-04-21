@@ -1,10 +1,4 @@
-// ============================================================
 // middleware/index.js
-// 📦 Central export — import all middleware from here
-// ============================================================
-// Uses ES Module syntax (export/import) to match the rest
-// of the project which uses "import" not "require"
-// ============================================================
 
 export { protect } from './authMiddleware.js';
 
@@ -23,11 +17,12 @@ export {
     PERMISSIONS,
 } from './permissionMiddleware.js';
 
+// ✅ FIXED: was 'validationMiddleware.js' but your file is named 'validateMiddleware.js'
 export {
     validateFeedback,
     validateUserRegistration,
     validateLogin,
     validateBulkOperation,
-} from './validationMiddleware.js';
+} from './validateMiddleware.js';
 
 export { notFound, errorHandler } from './errorMiddleware.js';

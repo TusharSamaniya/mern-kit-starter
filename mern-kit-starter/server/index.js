@@ -1,141 +1,83 @@
+// ============================================================
+// index.js  (ROOT — starts the server)
+// ============================================================
+
 import express from 'express';
+import dotenv from 'dotenv';
+dotenv.config(); // ← must be FIRST before anything reads process.env
 
-import dotenv from 'dotenv'
-dotenv.config()
-import cors from 'cors'
+import cors from 'cors';
+import cookieParser from 'cookie-parser';
+import morgan from 'morgan';
 
-// importing database conneciton file 
 import connectToMongo from './db.js';
+import logger from './logger/index.js';
 
-
-// importing routes files 
 import userRoutes from './routes/userRoutes.js';
 import adminRoutes from './routes/adminRoute.js';
 import supportRoutes from './routes/supportRoutes.js';
 
-import cookieParser from 'cookie-parser';
-//  import logging files and packages
-import morgan from 'morgan'
-import logger from './logger/index.js'
-// getting port from env file
-const PORT = process.env.PORT
-// creating a new express instance in a constant variable CALLED app
+// Error middleware — must be imported and used LAST
+import { notFound, errorHandler } from './middleware/index.js';
+
+const PORT = process.env.PORT || 4000;
 const app = express();
 
+// Connect to database
+connectToMongo();
 
-// create a connection to MongoDB
-connectToMongo()
-// Use morgan to log HTTP requests, integrated with Winston
-app.use(
-    morgan('combined', {
-        stream: { write: (message) => logger.info(message.trim()) },
-    })
-);
+// ---- MIDDLEWARE ----
+app.use(morgan('combined', {
+    stream: { write: (message) => logger.info(message.trim()) },
+}));
 
-// middlewares 
-// Set a timeout for requests
 app.use((req, res, next) => {
-    req.setTimeout(15000); // Set timeout to 5 seconds
+    req.setTimeout(15000);
     next();
 });
-// enable cors middleware
-const whitelist = ['http://localhost:3000', 'http://localhost:4000', 'http://192.168.31.114:3000'];
+
+const whitelist = [
+    'http://localhost:3000',
+    'http://localhost:4000',
+    'http://192.168.31.114:3000',
+    process.env.DOMAIN,
+].filter(Boolean);
 
 app.use(cors({
     origin: function (origin, callback) {
-        if (!origin || whitelist.indexOf(origin) !== -1) {
-            callback(null, true); // Allow requests with no origin or from whitelisted origins
+        if (!origin || whitelist.includes(origin)) {
+            callback(null, true);
         } else {
             callback(new Error('Not allowed by CORS'));
         }
-    }
+    },
+    credentials: true,
 }));
 
-
-// Use cookie-parser middleware
 app.use(cookieParser());
-app.use(express.json())
+app.use(express.json());
 
+// ---- ROUTES ----
+app.use('/api/auth', userRoutes);
+app.use('/api/admin/', adminRoutes);
+app.use('/api/support/', supportRoutes);
 
-// routes
-app.use('/api/auth', userRoutes)
-
-app.use('/api/admin/', adminRoutes)
-
-app.use('/api/support/', supportRoutes)
-
-
-
-
-
-
-app.listen(PORT, () => {
-    console.log('listening on port ', PORT, 'with frontend domain ', process.env.DOMAIN);
+// Health check — open browser at http://localhost:4000/api/health to test
+app.get('/api/health', (req, res) => {
+    res.json({
+        success: true,
+        message: 'Server is running!',
+        environment: process.env.NODE_ENV,
+    });
 });
 
+// ---- ERROR HANDLERS (always last) ----
+app.use(notFound);
+app.use(errorHandler);
 
-// ============================================================
-// index.js
-// 📦 ONE-STOP EXPORT - Import all middleware from here
-// ============================================================
-// Instead of importing from each file separately like:
-//   const { protect } = require('./middleware/auth.middleware')
-//   const { authorizeRoles } = require('./middleware/role.middleware')
-//
-// You can now do it all in one line:
-//   const { protect, authorizeRoles, validateFeedback } = require('./middleware')
-// ============================================================
-
-const { protect } = require("./authmiddleware");
-
-const {
-  authorizeRoles,
-  authorizeMinRole,
-  isSuperAdmin,
-  ROLES,
-} = require("./rolemiddleware");
-
-const {
-  checkPermission,
-  checkEditSpecific,
-  canView,
-  canEdit,
-  PERMISSIONS,
-} = require("./permissionmiddleware");
-
-const {
-  validateFeedback,
-  validateUserRegistration,
-  validateLogin,
-  validateBulkOperation,
-} = require("./validate.middleware");
-
-const { notFound, errorHandler } = require("./errormiddleware");
-
-module.exports = {
-  // 🔐 Auth
-  protect,
-
-  // 👥 Roles
-  authorizeRoles,
-  authorizeMinRole,
-  isSuperAdmin,
-  ROLES,
-
-  // 🔑 Permissions
-  checkPermission,
-  checkEditSpecific,
-  canView,
-  canEdit,
-  PERMISSIONS,
-
-  // ✅ Validation
-  validateFeedback,
-  validateUserRegistration,
-  validateLogin,
-  validateBulkOperation,
-
-  // 🚨 Errors
-  notFound,
-  errorHandler,
-};
+// ---- START ----
+app.listen(PORT, () => {
+    console.log(`✅ Server running on port ${PORT}`);
+    console.log(`🌐 Frontend domain: ${process.env.DOMAIN}`);
+    console.log(`🔧 Environment: ${process.env.NODE_ENV}`);
+});
