@@ -1,0 +1,2820 @@
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:40:57:4057'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:40:57:4057'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:41:25:4125'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:41:25:4125'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:41:29:4129'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:41:29:4129'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:46:01:461'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:46:01:461'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:24:4724'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:24:4724'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:28:4728'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:28:4728'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:30:4730'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user is blocked',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:30:4730'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:32:4732'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user is blocked',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:32:4732'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:34:4734'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user is blocked',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:47:34:4734'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:48:17:4817'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '20-12-24 19:48:18:4818'
+}
+{
+  message: {
+    event: 'get user details',
+    status: 'Failed',
+    reason: 'read ECONNRESET',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 09:20:20:2020'
+}
+{
+  message: {
+    event: 'get user details',
+    status: 'Failed',
+    reason: 'read ECONNRESET',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 09:20:27:2027'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:10:2110'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:13:2113'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:16:2116'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:17:2117'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:18:2118'
+}
+{
+  message: {
+    event: 'Update settings',
+    status: 'Success',
+    reason: 'Settings update successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:19:2119'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:37:2137'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:37:2137'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:43:2143'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:44:2144'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:49:2149'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:21:49:2149'
+}
+{
+  message: {
+    event: 'Update Profile',
+    status: 'Success',
+    reason: 'Profile updated successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:28:12:2812'
+}
+{
+  message: {
+    event: 'Update Profile',
+    status: 'Success',
+    reason: 'Profile updated successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:28:30:2830'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:51:50:5150'
+}
+{
+  message: {
+    event: 'Change password',
+    status: 'attempt',
+    reason: 'user attempted change password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:52:08:528'
+}
+{
+  message: {
+    event: 'Change password',
+    status: 'success',
+    reason: 'password change successful',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '21-12-24 15:52:09:529'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:22:4522'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:22:4522'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:31:4531'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:31:4531'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:34:4534'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:45:34:4534'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:15:4615'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:15:4615'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:35:4635'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:35:4635'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:41:4641'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:42:4642'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:49:4649'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:53:4653'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:53:4653'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:46:57:4657'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:49:29:4929'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Failed',
+    reason: 'User not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:49:29:4929'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:49:36:4936'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:49:40:4940'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:08:538'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Failed',
+    reason: 'User not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:08:538'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:09:539'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Failed',
+    reason: 'User not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:09:539'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:15:5315'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:53:19:5319'
+}
+{
+  message: {
+    event: 'Forgot password',
+    status: 'Failed',
+    reason: 'Invalid user',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:54:29:5429'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:55:15:5515'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:55:19:5519'
+}
+{
+  message: {
+    event: 'Forgot password',
+    status: 'Success',
+    reason: 'Password reseted successfully',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:56:12:5612'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:56:27:5627'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 19:56:27:5627'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:46:01:461'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:46:01:461'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:47:48:4748'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:47:52:4752'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:47:52:4752'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:47:57:4757'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:47:57:4757'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:59:47:5947'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '23-12-24 20:59:47:5947'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 10:55:01:551'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 10:55:01:551'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 10:55:06:556'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 10:55:06:556'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 11:37:42:3742'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '24-12-24 11:37:42:3742'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:02:392'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:02:392'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:10:3910'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:10:3910'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:15:3915'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 19:39:15:3915'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 21:53:30:5330'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '25-12-24 21:53:30:5330'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagar@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:42:5542'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'user not found',
+    user: 'dagar@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:42:5542'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:46:5546'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:46:5546'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:50:5550'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:50:5550'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:54:5554'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 19:55:56:5556'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'read ECONNRESET',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '26-12-24 20:16:32:1632'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'connection 5 to 15.206.13.116:27017 timed out',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 13:20:27:2027'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 16:05:59:559'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 16:06:00:60'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 16:06:02:62'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 16:06:03:63'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:06:32:632'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:06:33:633'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:23:51:2351'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:23:51:2351'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:23:56:2356'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:23:56:2356'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:24:01:241'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 21:24:01:241'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 22:14:38:1438'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:45:45:4545'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:48:25:4825'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:48:25:4825'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:48:42:4842'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:48:43:4843'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:49:24:4924'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:49:28:4928'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:49:30:4930'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:50:48:5048'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:50:48:5048'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:50:54:5054'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-12-24 23:50:55:5055'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 19:35:12:3512'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 19:35:13:3513'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'read ECONNRESET',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:26:426'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'read ECONNRESET',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:26:426'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:48:448'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'failed',
+    reason: 'read ECONNRESET',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:48:448'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:52:452'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'failed',
+    reason: 'read ECONNRESET',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:53:453'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:56:456'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '28-12-24 20:04:59:459'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 19:32:14:3214'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 19:32:15:3215'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:27:627'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:28:628'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:28:628'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:28:628'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:32:632'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 20:06:33:633'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 21:00:24:024'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '30-12-24 21:00:26:026'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 19:44:38:4438'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 19:44:40:4440'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 19:57:03:573'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:06:08:68'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:06:09:69'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:08:26:826'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:08:26:826'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:10:00:100'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:10:00:100'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:10:04:104'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:10:05:105'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:27:19:2719'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:27:53:2753'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:30:28:3028'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:31:14:3114'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:35:15:3515'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:35:15:3515'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:01:361'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:01:361'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:04:364'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:04:364'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:06:366'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:06:366'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:10:3610'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 20:36:11:3611'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:03:59:359'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:04:00:40'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:10:12:1012'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:25:2225'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:26:2226'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:26:2226'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:35:2235'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:36:2236'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:36:2236'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:36:2236'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:37:2237'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:37:2237'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:37:2237'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:37:2237'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:37:2237'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:47:2247'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:48:2248'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:49:2249'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:49:2249'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:49:2249'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:50:2250'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:50:2250'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:50:2250'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:50:2250'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:50:2250'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:51:2251'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:51:2251'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:51:2251'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:51:2251'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:22:51:2251'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:15:4315'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:16:4316'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:26:4326'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:27:4327'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:27:4327'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:28:4328'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:28:4328'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:28:4328'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:29:4329'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:29:4329'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:29:4329'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:29:4329'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:39:4339'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:40:4340'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:41:4341'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:41:4341'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:42:4342'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:42:4342'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:42:4342'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:42:4342'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:43:4343'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:43:4343'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:43:4343'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:43:4343'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:54:4354'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:54:4354'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:54:4354'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:54:4354'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:43:54:4354'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:44:04:444'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:44:04:444'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 21:44:24:4424'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:06:19:619'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:06:19:619'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:09:47:947'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:09:48:948'
+}
+{
+  message: {
+    event: 'refresh token',
+    status: 'Failed',
+    reason: 'token mismatch',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:09:48:948'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:23:34:2334'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'vipindagarjr@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '31-12-24 23:23:35:2335'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 13:59:47:5947'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 13:59:47:5947'
+}
+{
+  message: {
+    event: 'Signup',
+    status: 'Failed',
+    reason: 'User signup attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 13:59:57:5957'
+}
+{
+  message: {
+    event: 'Signup',
+    status: 'Failed',
+    reason: 'User email already registered',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 13:59:57:5957'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:06:06'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:06:06'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:16:016'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:16:016'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:20:020'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:20:020'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:25:025'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'Failed',
+    reason: 'password is invalid',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:25:025'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:33:033'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Failed',
+    reason: 'User not found',
+    user: 'Dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:33:033'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Attempt',
+    reason: 'User request for forgot password',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:38:038'
+}
+{
+  message: {
+    event: 'Forgot password request',
+    status: 'Success',
+    reason: 'Forgot password request received and link sent successfully',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:00:43:043'
+}
+{
+  message: {
+    event: 'Forgot password',
+    status: 'Success',
+    reason: 'Password reseted successfully',
+    user: 'none'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:01:42:142'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:01:44:144'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:01:45:145'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:03:27:327'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:03:28:328'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'attempted',
+    reason: 'User login attempt',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:08:44:844'
+}
+{
+  message: {
+    event: 'Login',
+    status: 'successful',
+    reason: 'User logged in successfully',
+    user: 'dagarv23@gmail.com'
+  },
+  level: 'auth',
+  timestamp: '27-03-25 14:08:44:844'
+}

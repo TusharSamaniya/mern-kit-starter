@@ -1,0 +1,96 @@
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"2024-11-26T16:40:46.975Z"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%3"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%3"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%4"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%2"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%2"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%2"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%Y-%11-%2 %22:%11:%1"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"%y-%11-%2 %22:%11:%51"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:10"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:16"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:17"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:18"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:18"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:18"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:19"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:19"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:20"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:20"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:21"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:21"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:22"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:32:1532"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:36:1536"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:36:1536"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:36:1536"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:37:1537"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:37:1537"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:37:1537"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:37:1537"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:37:1537"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:38:1538"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:38:1538"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:38:1538"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:39:1539"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:39:1539"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"02/15/yyyy 22:15:39:1539"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"11-24-26 22:16:29:1629"}
+{"level":"error","message":"Home page accessed","service":"user-service","timestamp":"26-11-24 22:16:59:1659"}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '26-11-24 22:20:40:2040'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  service: 'user-service',
+  timestamp: '26-11-24 22:20:41:2041'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:21:15:2115'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:21:15:2115'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:21:48:2148'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:22:05:225'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:22:09:229'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:22:09:229'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:22:16:2216'
+}
+{
+  message: 'Home page accessed',
+  level: 'error',
+  timestamp: '26-11-24 22:22:26:2226'
+}
+{
+  message: 'Login error - Email: Dagarv23@gmail.com, Error: logger.warn is not a function',
+  level: 'error',
+  timestamp: '28-11-24 17:43:06:436'
+}
